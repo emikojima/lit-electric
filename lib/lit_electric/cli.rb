@@ -5,7 +5,7 @@ class Cli
     Book.create_from_scraper
     # Book.url
     lines
-    puts "  Welcome to the list of #{Book.all.length.to_i} books by women and nonbinary people of color you've gotta read in 2019!"
+    puts "  Welcome to the 2019 list of #{Book.all.length.to_i} books by women and nonbinary people of color you've gotta read"
     lines
     list_books
     more_info
