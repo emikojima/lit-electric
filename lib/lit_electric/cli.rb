@@ -5,7 +5,7 @@ class Cli
     Book.create_from_scraper
     # Book.url
     lines
-    puts "  Welcome to the list of #{Book.all.length.to_i} books by women of color you've gotta read in 2019!"
+    puts "  Welcome to the list of #{Book.all.length.to_i} books by women and nonbinary people of color you've gotta read in 2019!"
     lines
     list_books
     more_info
@@ -32,7 +32,7 @@ class Cli
       if (1..Book.all.length.to_i) === input.to_i
         lines
         puts "BOOK ##{input} GREAT CHOICE! Here's more information on that book:"
-        puts "BOOK TITLE & AUTHOR: #{Book.all[input.to_i-1].title}."
+        puts "AUTHOR, BOOK TITLE: #{Book.all[input.to_i-1].title}."
         puts " "
         puts "BOOK DESCRIPTION: #{Book.all[input.to_i-1].description}"
         puts " "
