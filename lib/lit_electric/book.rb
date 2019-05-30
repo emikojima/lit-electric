@@ -28,7 +28,6 @@ class Book
   end
 
   def self.create_from_scraper
-<<<<<<< HEAD
 
     # Scraper.scrape_from_url[0].each{|b| b[:title].each_with_index{|t,i| self.create(t)}}
      Scraper.scrape_from_url[0].each do |k,v|
@@ -42,13 +41,10 @@ class Book
         # b.save
         # b
 
-
-=======
     titles = Scraper.titles
     urls = Scraper.urls
     titles.each_with_index do |title,i|
         self.create(title = title, url = urls[i])
->>>>>>> 156924302f875260a69761078c33d80d5d662fd8
     end
   end
 
