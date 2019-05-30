@@ -1,16 +1,12 @@
-# Lit::Electric
+# Lit Electric
+This CLI Ruby Gem allows you to access information scrapted from Electric Lit's list of 48 Books By Women and Nonbinary Authors of Color to Read in 2019 (https://electricliterature.com/48-books-by-women-and-nonbinary-authors-of-color-to-read-in-2019/)
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/lit/electric`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+Built with Ruby and Nokogiri
 
 ## Installation
-
-Add this line to your application's Gemfile:
-
-```ruby
-gem 'lit-electric'
-```
+Simply clone this repo and copy, in your terminal, execute:
+    
+    $ git clone [paste the copy of the repo here]
 
 And then execute:
 
@@ -22,13 +18,9 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Execute:
+    $ bin/lit-electric     
 
-## Development
-
-After checking out the repo, run `bin/setup` to install dependencies. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
-
-To install this gem onto your local machine, run `bundle exec rake install`. To release a new version, update the version number in `version.rb`, and then run `bundle exec rake release`, which will create a git tag for the version, push git commits and tags, and push the `.gem` file to [rubygems.org](https://rubygems.org).
 
 ## Contributing
 
