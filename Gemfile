@@ -6,3 +6,7 @@ git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
 gem 'rake'
 gem 'pry'
 gem 'nokogiri'
+
+group :development do
+  gem 'rb-readline'
+end

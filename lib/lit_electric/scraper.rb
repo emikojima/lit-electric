@@ -26,6 +26,14 @@ class Scraper
     # books[:urls] << urls
     books
 
-
   end
+
+  def self.titles
+    self.scrape_from_url[0][:title]
+  end
+
+  def self.urls
+    self.scrape_from_url[0][:url]
+  end
+
 end
