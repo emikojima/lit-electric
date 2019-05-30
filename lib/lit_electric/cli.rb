@@ -36,7 +36,11 @@ class Cli
         puts " "
         puts "BOOK DESCRIPTION: #{Book.all[input.to_i-1].description}"
         puts " "
-        puts "BUY IT HERE: #{Book.all[input.to_i-1].url}"
+        if !!Book.all[input.to_i-1].url
+          puts "BUY IT HERE: #{Book.all[input.to_i-1].url}"
+        else
+          puts "BUY IT HERE: Link not available"
+        end
         lines
       elsif input == "list"
         list_books
