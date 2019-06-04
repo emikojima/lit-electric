@@ -7,14 +7,14 @@ Built with Ruby and Nokogiri
 Simply clone this repo and copy, in your terminal, execute:
     
     $ git clone [paste the copy of the repo here]
+    
+    $ cd lit-electric
 
 And then execute:
 
-    $ bundle
+    $ bundle 
 
-Or install it yourself as:
 
-    $ gem install lit-electric
 
 ## Usage
 
